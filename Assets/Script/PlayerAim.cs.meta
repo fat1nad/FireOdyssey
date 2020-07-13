@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2e69c1bb50fe97d4f9037b6780587b1f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootJoystick: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - FireBallSFX: {fileID: 8300000, guid: 500d4b144e6d01e4a9c498651247a1eb, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

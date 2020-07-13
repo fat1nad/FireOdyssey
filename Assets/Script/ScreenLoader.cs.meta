@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c26ec0d5bf43b104cac8e9291f1556d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - OptionsMenu: {fileID: 8049672557580804058, guid: 0223e9b3f4842b14a862db6f495e95cf,
+      type: 3}
+  - CurrentCanva: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
