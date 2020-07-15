@@ -426,7 +426,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 14c83872c9bc6aa42ab004902b6aaf58, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1988,5 +1988,52 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785302, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -846
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785302, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 466
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785302, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 545.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785302, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 237.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785303, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 26befd101a4e36c4ab754593988f93e5,
+        type: 3}
+    - target: {fileID: 2815909624095785303, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785303, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624095785303, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815909624369437919, guid: 7df66d8477b88064da8d32a14c465d6b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ea44a83421acb9e479995db23585cd0f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7df66d8477b88064da8d32a14c465d6b, type: 3}

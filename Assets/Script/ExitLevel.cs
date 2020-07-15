@@ -25,8 +25,11 @@ public class ExitLevel : MonoBehaviour
 
     void Awake()
     {
+        if (HelpScreeen == false)
+        {
         scenename = SceneManager.GetActiveScene().name;
         currentlevel =  int.Parse(scenename.Substring(scenename.Length-1));
+        }
     }
     void OnTriggerEnter2D(Collider2D other)
     {

@@ -96,7 +96,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -388,7 +387,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1123,7 +1121,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1273,7 +1270,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1976,7 +1972,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2021,20 +2016,25 @@ PrefabInstance:
       propertyPath: pauseCanva
       value: 
       objectReference: {fileID: 984770500}
+    - target: {fileID: 5222921165076143062, guid: 0223e9b3f4842b14a862db6f495e95cf,
+        type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8049672556604537178, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049672556759641434, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049672557055368148, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.024963379
+      value: 0.024902344
       objectReference: {fileID: 0}
     - target: {fileID: 8049672557580804055, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
@@ -2159,17 +2159,17 @@ PrefabInstance:
     - target: {fileID: 8049672557913095222, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049672557913095222, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049672557913095222, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049672558062893195, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
@@ -2184,12 +2184,12 @@ PrefabInstance:
     - target: {fileID: 8049672558440553677, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049672558440553677, guid: 0223e9b3f4842b14a862db6f495e95cf,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0223e9b3f4842b14a862db6f495e95cf, type: 3}
@@ -3698,7 +3698,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4088,7 +4087,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4569,6 +4567,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2969728063248227116, guid: ac43d41c4acf4cc499618fbc38d37973,
+        type: 3}
+      propertyPath: m_Text
+      value: Replay Level
+      objectReference: {fileID: 0}
     - target: {fileID: 3560008030959413812, guid: ac43d41c4acf4cc499618fbc38d37973,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4599,11 +4602,6 @@ PrefabInstance:
       propertyPath: flicker
       value: 
       objectReference: {fileID: 1323178977}
-    - target: {fileID: 7624028342591348450, guid: ac43d41c4acf4cc499618fbc38d37973,
-        type: 3}
-      propertyPath: NoCoal
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 7624028342591348451, guid: ac43d41c4acf4cc499618fbc38d37973,
         type: 3}
       propertyPath: m_LocalPosition.x

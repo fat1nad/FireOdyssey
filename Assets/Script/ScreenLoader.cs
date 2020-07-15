@@ -62,7 +62,7 @@ public class ScreenLoader : MonoBehaviour
         else
         {
             level = (Convert.ToInt32(level) - 2).ToString();
-            Debug.Log(level);
+            //Debug.Log(level);
             SceneManager.LoadScene ("GameScreen"+ level);
         }
         
