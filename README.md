@@ -1,7 +1,5 @@
 # FireOdyssey
 
-[Project still in progress]
-
 A cute fantasy/adventure based 2D platformer game about a flicker's journey to the extinguished sun as it ignites a world overtaken by darkness.
 
 ## [Latest build](https://fati-nad.itch.io/fireodyssey)
