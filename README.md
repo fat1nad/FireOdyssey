@@ -1,4 +1,4 @@
-# FireOdyssey
+# Fire Odyssey
 
 A cute fantasy/adventure based 2D platformer game about a flicker's journey to the extinguished sun as it ignites a world overtaken by darkness.
 
