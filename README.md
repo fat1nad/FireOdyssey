@@ -4,7 +4,7 @@ A cute fantasy/adventure based 2D platformer game about a flicker's journey to t
 
 ## [Latest build](https://fati-nad.itch.io/fireodyssey)
 
-## The team (4AM Souls):
+## The Team (4AM Souls):
 
 	1. Fatima Nadeem
 	2. Alina Qureshi
