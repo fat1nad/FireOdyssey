@@ -6,8 +6,8 @@ A cute fantasy/adventure based 2D platformer game about a flicker's journey to t
 
 ## The Team (4AM Souls):
 
-	1. Fatima Nadeem
-	2. Alina Qureshi
-	3. Zunaira Qureshi
+	1. Fatima Nadeem (Game programmer, artist)
+	2. Alina Qureshi (Game programmer)
+	3. Zunaira Qureshi (Game programmer, artist)
 
 
